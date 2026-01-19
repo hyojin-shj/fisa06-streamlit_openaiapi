@@ -3,8 +3,8 @@
 # 3. streamlit input / output 만들기  0
 # 4. p실제 local 서버에서 실행되는지 확인
 # 4-1. pip freeze > requirements.txt0
-# 4-2. .gitignore 작성해서 .env 가리기
-# 5. github repo 만들기
+# 4-2. .gitignore 작성해서 .env 가리기0
+# 5. github repo 만들기0
 # 6. share.streamlit.io에 연동하기
 
 import os
