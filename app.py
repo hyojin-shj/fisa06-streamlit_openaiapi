@@ -14,7 +14,7 @@ import pandas as pd
 from dotenv import load_dotenv
 
 load_dotenv()
-api_key = os.getenv("api_key")
+api_key = os.getenv("OPENAI_API_KEY")
 
 @st.cache_data
 def load_data():
