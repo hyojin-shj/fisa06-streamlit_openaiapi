@@ -18,7 +18,7 @@ api_key = os.getenv("api_key")
 
 @st.cache_data
 def load_data():
-    df = pd.read_excel(r'C:\ITStudy\Data\Adidas US Sales Datasets.xlsx', skiprows=4)
+    df = pd.read_excel(r'Adidas US Sales Datasets.xlsx', skiprows=4)
     return df
 
 df = load_data()
